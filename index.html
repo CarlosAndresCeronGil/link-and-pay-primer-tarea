@@ -3,11 +3,17 @@
 <head>
   <meta charset="utf-8">
   <title>HTML</title>
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="estilo.css">
 </head>
 
 <body>
-  <p>Esta página web es una página HTML válida.</p>
+  <p>Type a year to see if it's a leap year.</p>
+
+  <input id="year-input" placeholder="Enter a year" type="number" min="1900">
+  <button id="result-button" onclick="seeResult()">Check</button>
+
+  <h3>Result</h3>
+  <p id="result"></p>
+
+  <script src="scripts.js" type="text/javascript"></script>
 </body>
 </html>
